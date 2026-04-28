@@ -1,0 +1,44 @@
+# Core Framework
+fastapi>=0.115.0
+uvicorn[standard]>=0.34.0
+python-dotenv>=1.0.1
+python-multipart>=0.0.20
+slowapi>=0.1.9
+
+# LLM & Agent Orchestration
+langchain>=0.3.20
+langchain-openai>=0.3.8
+langchain-community>=0.3.19
+langchain-qdrant>=0.2.0
+langgraph>=0.3.9
+
+# Vector Database
+qdrant-client>=1.13.3
+
+# Embeddings & Reranking
+sentence-transformers>=3.4.1
+
+# Document Parsing
+docling>=2.31.0
+
+# Web Search
+tavily-python
+
+# Speech (OpenAI Whisper STT + TTS)
+openai>=1.30.0
+pydub>=0.25.1
+ffmpeg-python>=0.2.0
+
+# ML / Vision
+torch>=2.7.0
+torchvision>=0.22.0
+opencv-python>=4.11.0
+Pillow>=11.1.0
+matplotlib>=3.10.1
+
+# Utilities
+numpy
+requests>=2.32.3
+pydantic>=2.10.6
+gdown>=5.2.0
+werkzeug>=3.0.0

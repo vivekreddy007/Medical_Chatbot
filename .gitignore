@@ -1,0 +1,57 @@
+# Byte-compiled / optimized
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.env
+.venv
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Distribution
+build/
+dist/
+*.egg-info/
+
+# Large model files
+*.tar
+*.pth
+
+# Audio files (runtime generated)
+*.mp3
+*.webm
+
+# Runtime outputs
+uploads/skin_lesion_output/segmentation_plot.png
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Runtime upload folder
+uploads/*
+!uploads/.gitkeep
+
+# Database / vector store — keep directory structure, ignore contents
+data/qdrant_db/*
+!data/qdrant_db/.gitkeep
+data/docs_db/*
+!data/docs_db/.gitkeep
+data/parsed_docs/*
+!data/parsed_docs/.gitkeep
+
+# IDE workspace files
+*.code-workspace
+
+# Dev scratch files
+roughwork.py
+rough_tavily.py
+
+# Brain tumor output
+uploads/brain_tumor_output/*
+!uploads/brain_tumor_output/.gitkeep
